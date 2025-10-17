@@ -1,20 +1,16 @@
 {
   "expo": {
-    "name": "IOU Tracker",
+    "name": "IOU Tracker Pro",
     "slug": "iou-tracker-free",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "ioutracker",
+    "scheme": "ioutrackerpro",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.anonymous.ioutracker"
-    },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#FFD700",
         "foregroundImage": "./assets/images/android-icon-foreground.png",
         "backgroundImage": "./assets/images/android-icon-background.png",
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
@@ -31,7 +27,7 @@
         "android.permission.READ_CONTACTS",
         "android.permission.MANAGE_EXTERNAL_STORAGE"
       ],
-      "package": "com.anonymous.ioutracker",
+      "package": "com.anonymous.ioutracker.pro",
       "versionCode": 1
     },
     "web": {
@@ -48,8 +44,8 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#ffffff",
-          "splashScreenId": "splash"
+          "backgroundColor": "#FFD700",
+          "splashScreenId": "splash-pro"
         }
       ],
       "expo-local-authentication",
@@ -57,30 +53,23 @@
         "expo-notifications",
         {
           "icon": "./assets/images/icon.png",
-          "color": "#ffffff"
+          "color": "#FFD700"
         }
       ],
       [
         "expo-contacts",
         {
-          "contactsPermission": "Allow IOU Tracker to access your contacts to make adding people easier."
+          "contactsPermission": "Allow IOU Tracker Pro to access your contacts for enhanced features."
         }
       ],
-      [
-        "react-native-google-mobile-ads",
-        {
-          "android_app_id": "ca-app-pub-5832333342375286~8602969898",
-          "ios_app_id": "ca-app-pub-5832333342375286~8602969898",
-          "user_tracking_usage_description": "This identifier will be used to deliver personalized ads to you."
-        }
-      ]
+      "react-native-google-mobile-ads"
     ],
     "experiments": {
       "typedRoutes": true
     },
     "extra": {
-      "isProVersion": false,
-      "appVariant": "free",
+      "isProVersion": true,
+      "appVariant": "pro",
       "router": {
         "origin": false
       },

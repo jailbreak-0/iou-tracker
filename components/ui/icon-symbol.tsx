@@ -18,6 +18,26 @@ const MAPPING = {
   'paperplane.fill': 'send',
   'chevron.left.forwardslash.chevron.right': 'code',
   'chevron.right': 'chevron-right',
+  // IOU Tracker specific icons
+  'clock.fill': 'schedule',
+  'clock': 'schedule',
+  'gear': 'settings',
+  'plus': 'add',
+  'plus.circle': 'add-circle',
+  'arrow.left': 'arrow-back',
+  'arrow.up.circle.fill': 'keyboard-arrow-up',
+  'arrow.down.circle.fill': 'keyboard-arrow-down',
+  'calendar': 'event',
+  'square.and.arrow.up': 'share',
+  'square.and.arrow.up.fill': 'file-upload',
+  'doc.text': 'description',
+  'doc.richtext': 'article',
+  'star.fill': 'star',
+  'lock.fill': 'lock',
+  'faceid': 'fingerprint',
+  'delete.left': 'backspace',
+  'person.circle': 'person',
+  'person.2.badge.plus': 'person-add',
 } as IconMapping;
 
 /**

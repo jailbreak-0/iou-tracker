@@ -1,0 +1,9 @@
+{
+  "name": "create-free-version",
+  "description": "Script to create free version without export functionality",
+  "main": "scripts/create-free-version.js",
+  "scripts": {
+    "create-free": "node scripts/create-free-version.js",
+    "create-pro": "node scripts/create-pro-version.js"
+  }
+}
